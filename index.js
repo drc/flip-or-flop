@@ -19,7 +19,6 @@ async function go() {
     row_column.forEach(row => {
         let rowdata = [];
         row.forEach((column, idx) => {
-            0, 1, 4, 5, 6, 7, 8;
             if (idx === 2 || idx === 9) {
                 rowdata.push(
                     JSON.stringify(
